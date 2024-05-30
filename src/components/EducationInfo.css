@@ -1,0 +1,19 @@
+.education-info{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding:20px;
+    /* margin-top: 10px; */
+    width:400px;
+}
+
+.education-info label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.education-info input{
+    padding: 20px;
+    border-radius: 5px;
+    border:2px solid gray
+}

@@ -1,0 +1,19 @@
+.document-info{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding:20px;
+    /* margin-top: 30px; */
+    width:400px;
+}
+
+.document-info label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.document-info input{
+    padding: 20px;
+    border-radius: 5px;
+    border:2px solid gray
+}
