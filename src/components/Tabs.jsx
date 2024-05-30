@@ -59,7 +59,7 @@ const Tabs = () => {
           <FormProvider {...methods}>
             <form onSubmit={methods.handleSubmit(onSubmit)}>
               <div className="body">{PageDisplay()}</div>
-              <div className="footer">
+              <div className="footer" style={{display:"flex",alignItems:"center"}}>
                 <button
                   type="button"
                   disabled={page === 0}
